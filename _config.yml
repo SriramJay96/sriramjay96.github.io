@@ -31,7 +31,7 @@ resume-url: https://drive.google.com/file/d/13Z3duVzh-gguPU5r03oJVEE6rV9rd3DS/vi
 # Set up external links - this will show up as small icons next to your name.
 
 external-links:    # input only your own url slug. The icons with missing entries will not appear.
-  linkedin: sriram-jayakumar    # https://www.linkedin.com/in/{your url slug} 
+  linkedin: sriram-jayakumar    # https://www.linkedin.com/in/{sriram-jayakumar} 
   github:     # https://github.com/{your url slug} 
   stackoverflow:       # https://stackoverflow.com/users/{your url slug}
   medium:            # https://medium.com/@{your url slug} 
@@ -45,14 +45,14 @@ external-links:    # input only your own url slug. The icons with missing entrie
 
 # Skills Section - Add the list of your Skills by categories/tools. The indentation for each level needs to be precise. 
 skills:
-  - category: 
-    tools: Automation & Controls
+  - category: Automation & Controls
+    tools: 
     - Beckhoff TwinCAT  
     - Rockwell Allen Bradley
     - Siemens TIA
     - Ignition 
-  - category:
-    tools: Robotics
+  - category: Robotics
+    tools: 
     - ROS
     - Computer vision
     - Reinforcement learning

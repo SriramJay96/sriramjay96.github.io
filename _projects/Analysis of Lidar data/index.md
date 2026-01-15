@@ -32,12 +32,12 @@ Types of Data from Ouster
 
 ## Analysis of Data
 1. LiDAR facing a transparent object
-{% include image-gallery.html images="Hist1.jpg" height="400" %}
+{% include image-gallery.html images="/projects/images/Hist1.jpg" height="400" %}
 The plots of colormap and histogram provide a thorough examination of the data gathered by LiDAR and demonstrate how the data can be utilized to identify opaque and transparent items to the LiDAR. By taking the mean and visualizing the standard deviation of a group of intensity
 values collected from LiDAR, the intensity plots are calculated. The color map shows the light orange regions, which show the area where an opaque object is next to a transparent object, and the blue regions, which show the area where the LiDAR faces glass. The transparent item causes the intensity values to be lower, and the abrupt spike is assigned to the opaque object next to the transparent object, according to the histogram.
 
 2. LiDAR facing an opaque object
-{% include image-gallery.html images="Hist2.jpg" height="400" %}
+{% include image-gallery.html images="/projects/images/Hist2.jpg" height="400" %}
 Figure depicts the colormap and histogram plots of LiDAR facing an opaque object. We can see that the histogram plots of the intensity values of the LiDAR data follows a Gaussian Distribution and can be seen concentrated at a small interval, unlike that of the reflection from a
 transparent object. The values are equally distributed since the laser pulse generated at that point on the object is consistently returned to the LiDAR to detect.
 
@@ -53,9 +53,9 @@ object in front of it, similar to what we can see when there is literally no obj
 You can put in multiple entries. All images will be at a fixed height in the same row. With smaller window, they will switch to columns.   -->
 
 ### Images
-{% include image-gallery.html images="Transparent object.jpg" height="400" %} 
-{% include image-gallery.html images="Opaqueobject.jpg" height="400" %} 
-{% include image-gallery.html images="Noobject.jpg" height="400" %} 
+{% include image-gallery.html images="/projects/images/Transparent object.jpg" height="400" %} 
+{% include image-gallery.html images="/projects/images/Opaqueobject.jpg" height="400" %} 
+{% include image-gallery.html images="/projects/images/Noobject.jpg" height="400" %} 
 place the images in project folder/images then update the file path.   
 
 
